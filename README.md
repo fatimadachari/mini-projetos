@@ -9,10 +9,8 @@ Este repositório é uma coleção de mini projetos desenvolvidos com o objetivo
 
 ## Tecnologias Utilizadas
 
-Os projetos neste repositório utilizam uma variedade de tecnologias, incluindo:
+Os projetos neste repositório utilizam como base as tecnologias:
 
-- HTML
-- CSS
 - JavaScript
 - React.js
 
