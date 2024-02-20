@@ -12,6 +12,7 @@ function Home() {
         <Link to="calculadora-imc"><button>Calculadora IMC</button></Link>
         <Link to="relogio-digital"><button>Relógio digital</button></Link>
         <Link to="cronometro"><button>Cronometro</button></Link>
+        <Link to="regra-de-tres"><button>Regra de três</button></Link>
       </div>
     </div>
   );
