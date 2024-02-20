@@ -8,7 +8,7 @@ import RegraDeTres from "./projetos/regra-de-tres/RegraDeTres";
 
 function AppRoutes() {
     return (
-      <Router>
+      <Router basename="/mini-projetos">
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/calculadora-imc" element={<CalculadoraIMC/>}></Route>
