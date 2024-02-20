@@ -11,6 +11,7 @@ function Home() {
         <h1>Mini Projetos</h1>
         <Link to="calculadora-imc"><button>Calculadora IMC</button></Link>
         <Link to="relogio-digital"><button>Relógio digital</button></Link>
+        <Link to="cronometro"><button>Cronometro</button></Link>
       </div>
     </div>
   );
