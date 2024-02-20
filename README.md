@@ -1,23 +1,8 @@
-# Bem-vindo ao Repositório de Mini Projetos 📂
+# React + Vite
 
-Este repositório é uma coleção de mini projetos desenvolvidos com o objetivo de demonstrar habilidades em diversas tecnologias e linguagens de programação.
-## Projetos Inclusos
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- **Calculadora de IMC**: Uma calculadora que calcula o IMC (indice de massa corporal) de uma pessoa e retorna sua classificação.
-- **Relógio digital**: Um relógio digital moderno que mostra a hora atual do sistema.
-- **Ainda será incluso mais projetos.**
+Currently, two official plugins are available:
 
-## Tecnologias Utilizadas
-
-Os projetos neste repositório utilizam como base as tecnologias:
-
-- JavaScript
-- React.js
-
-## Contribuições
-
-Contribuições são sempre bem-vindas! Se você tem alguma ideia para um novo mini projeto ou melhorias para os projetos existentes, sinta-se à vontade para criar um fork do repositório, fazer suas alterações e enviar um Pull Request. Certifique-se de seguir as diretrizes de contribuição listadas abaixo:
-
-- Mantenha o código limpo e bem organizado.
-- Comente seu código quando necessário para explicar a lógica utilizada.
-- Atualize este README se adicionar ou modificar projetos.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

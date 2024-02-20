@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./pages/Home";
-import Sobre from "./pages/Sobre";
-import ClaculadoraIMC from "./projetos/calculadora-imc/ClaculadoraIMC";
+import CalculadoraIMC from "./projetos/calculadora-imc/CalculadoraIMC";
 import RelogioDigital from "./projetos/relogio-digital/RelogioDigital";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -10,8 +9,7 @@ function AppRoutes() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
-          <Route path="/sobre" element={<Sobre/>}></Route>
-          <Route path="/calculadora-imc" element={<ClaculadoraIMC/>}></Route>
+          <Route path="/calculadora-imc" element={<CalculadoraIMC/>}></Route>
           <Route path="/relogio-digital" element={<RelogioDigital/>}></Route>
         </Routes>
       </Router>
