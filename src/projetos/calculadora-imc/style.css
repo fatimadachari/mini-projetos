@@ -10,17 +10,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#container {
+.CalculadoraIMC #container {
     display: flex;
     align-items: center;
     gap: 3.5rem
 }
 
-#img img {
+.CalculadoraIMC #img img {
     width: 32rem;
 }
 
-#calculator {
+.CalculadoraIMC #calculator {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -30,18 +30,18 @@
     border-radius: 8px;
 }
 
-#form {
+.CalculadoraIMC #form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-#title {
+.CalculadoraIMC #title {
     font-size: 2.25rem;
     position: relative;
 }
 
-#title::after {
+.CalculadoraIMC #title::after {
     position: absolute;
     content: '';
     background-color: #16a34a;
@@ -52,13 +52,13 @@
     border-radius: 3px;
 }
 
-.input-box label {
+.CalculadoraIMC .input-box label {
     font-size: 1.1rem;
     color: #cbd5e1;
     font-weight: 500;
 }
 
-.input-field {
+.CalculadoraIMC .input-field {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,14 +68,14 @@
     margin-top: 3px;
 }
 
-.input-field span,
-.input-field i {
+.CalculadoraIMC .input-field span,
+.CalculadoraIMC .input-field i {
     color: #cbd5e1;
     font-size: 1.3rem;
     padding: 0.6rem 1rem;
 }
 
-.input-field input {
+.CalculadoraIMC .input-field input {
     background-color: transparent;
     border: none;
     width: 100%;
@@ -84,16 +84,16 @@
     padding: 0 0.5rem;
 }
 
-.input-field input::-webkit-outer-spin-button,
-.input-field input::-webkit-inner-spin-button {
+.CalculadoraIMC .input-field input::-webkit-outer-spin-button,
+.CalculadoraIMC .input-field input::-webkit-inner-spin-button {
     appearance: none;
 }
 
-.input-field input:focus {
+.CalculadoraIMC .input-field input:focus {
     outline: none;
 }
 
-#calculate {
+.CalculadoraIMC #calculate {
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
@@ -104,7 +104,7 @@
     cursor: pointer;
 }
 
-#result {
+.CalculadoraIMC #result {
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -112,28 +112,28 @@
     padding: 0.75rem 0;
 }
 
-#bmi {
+.CalculadoraIMC #bmi {
     display: flex;
     align-items: center;
     flex-direction: column;
     font-size: 2.25rem;
 }
 
-#bmi span:last-child {
+.CalculadoraIMC #bmi span:last-child {
     font-size: 0.875rem;
     color: #cbd5e1;
 }
 
-#description {
+.CalculadoraIMC #description {
     width: 15.5rem;
 }
 
-#more-info {
+.CalculadoraIMC #more-info {
     border-top: 1px solid #ffffff34;
     padding-top: 1.5rem;
 }
 
-#more-info a {
+.CalculadoraIMC #more-info a {
     color: #16a34a;
     display: flex;
     justify-content: center;
@@ -144,23 +144,23 @@
     transform: color 0.5s;
 }
 
-#more-info a:hover {
+.CalculadoraIMC #more-info a:hover {
     color: #cbd5e1;
 }
 
 @media screen and (max-width:1024px) {
-    #img{
+    .CalculadoraIMC #img{
         display: none;
     }
 }
 
 @media screen and (max-width:500px) {
-    #container{
+    .CalculadoraIMC #container{
         width: 100%;
         height: 100%;
     }
 
-    #calculator{
+    .CalculadoraIMC #calculator{
         width: 100%;
         height: 100%;
         border-radius: 0;
