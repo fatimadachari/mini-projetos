@@ -2,14 +2,14 @@
 
 .RelogioDigital {
     height: 100vh;
-    background: linear-gradient(139deg, rgba(24,24,27,1) 3%, rgba(14,65,33,1) 50%, rgba(22,163,74,1) 86%);
+    background: linear-gradient(139deg, rgba(24, 24, 27, 1) 3%, rgba(14, 65, 33, 1) 50%, rgba(22, 163, 74, 1) 86%);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
 }
 
-.RelogioDigital .relogio{
+.RelogioDigital .relogio {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -20,7 +20,7 @@
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
-.RelogioDigital .relogio div{
+.RelogioDigital .relogio div {
     height: 170px;
     width: 150px;
     display: flex;
@@ -34,11 +34,30 @@
     letter-spacing: 3px;
 }
 
-.RelogioDigital .relogio span{
+.RelogioDigital .relogio span {
     font-weight: bolder;
     font-size: 60px
 }
 
-.RelogioDigital .relogio span.tempo{
+.RelogioDigital .relogio span.tempo {
     font-size: 10px;
+}
+
+@media screen and (max-width:650px) {
+    .RelogioDigital .relogio {
+        width: 325px;
+    }
+
+    .RelogioDigital .relogio div {
+        height: 140px;
+        width: 95px;
+    }
+
+    .RelogioDigital .relogio span {
+        font-size: 40px
+    }
+    
+    .RelogioDigital .relogio span.tempo {
+        font-size: 10px;
+    }
 }

@@ -4,12 +4,13 @@
   text-align: center;
   align-items: center;
   min-height: 100vh;
-  padding: 100px;
+  padding: 100px 0;
 }
 
-.Home img{
+.Home img {
   height: 100px;
 }
+
 .Container {
   background-color: #3F3D56;
   width: 600px;
@@ -21,13 +22,13 @@
   background-clip: content-box;
 }
 
-.Container h1{
+.Container h1 {
   margin: 10px;
   color: #f8fafc;
 
 }
 
-.Container button{
+.Container button {
   width: 400px;
   height: 35px;
   font-size: 15px;
@@ -39,4 +40,46 @@
   padding: 0.5rem 0;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+  .Container {
+    width: 400px;
+  }
+
+  .Container button {
+    width: 275px;
+  }
+
+  .Home img {
+    height: auto;
+    width: 300px;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .Container {
+    width: 300px;
+  }
+
+  .Container button {
+    width: 225px;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .Container {
+    width: 300px;
+  }
+
+  .Container button {
+    width: 225px;
+  }
+
+  .Home img {
+    height: auto;
+    width: 225px;
+  }
 }
