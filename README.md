@@ -1,6 +1,6 @@
 # Bem-vindo ao Repositório de Mini Projetos 📂
 
-Este repositório é uma coleção de mini projetos desenvolvidos com o objetivo de demonstrar minhas habilidades em JavaScript com React e Vite. Para visualizar a página dos mini projetos, acesse o link: [https://fatimadachari.github.io/mini-projetos/](https://fatimadachari.github.io/mini-projetos/)
+Este repositório é uma coleção de mini projetos desenvolvidos com o objetivo de demonstrar minhas habilidades em JavaScript com React e Vite. Para visualizar a página dos mini projetos, [acesse esse link](https://fatimadachari.github.io/mini-projetos/).
 
 <p >
   <img src="/src/pages/images/imagem-readme.png" alt="Preview do projeto">
