@@ -1,8 +1,11 @@
 # Bem-vindo ao Repositório de Mini Projetos 📂
 
-Este repositório é uma coleção de mini projetos desenvolvidos com o objetivo de demonstrar minhas habilidades em JavaScript com React e Vite. 
+Este repositório é uma coleção de mini projetos desenvolvidos com o objetivo de demonstrar minhas habilidades em JavaScript com React e Vite. Para visualizar a página dos mini projetos, acesse o link: [https://fatimadachari.github.io/mini-projetos/](https://fatimadachari.github.io/mini-projetos/)
 
-Para visualizar a página dos mini projetos, acesse o link: [https://fatimadachari.github.io/mini-projetos/](https://fatimadachari.github.io/mini-projetos/)
+<p >
+  <img src="/src/pages/images/imagem-readme.png" alt="Preview do projeto">
+</p>
+
 ## Projetos Inclusos
 
 - **Calculadora de IMC**: Uma calculadora que calcula o IMC (indice de massa corporal) de uma pessoa e retorna sua classificação.
